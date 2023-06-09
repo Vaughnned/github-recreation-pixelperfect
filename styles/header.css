@@ -1,0 +1,112 @@
+header {
+  border-bottom: 1px solid black;
+  height: 50px;
+  width: 100%;
+}
+
+.logo-header {
+  background-color: #161b22;
+}
+
+.overview {
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+  justify-content: center;
+  border-bottom: 1px solid #484848;
+}
+
+.overview nav {
+  font-size: 12px;
+  height: 25px;
+  padding: 5px;
+  margin: 0px 5px;
+}
+
+.overview nav svg {
+  height: 10px;
+  width: 10px;
+}
+
+#repo {
+  border-bottom: 2px solid rgb(249, 129, 86);
+}
+
+.logo {
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: fit-content;
+  float: left;
+  margin: 10px 15px 5px 25px;
+}
+
+.header-left nav {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 14px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: right;
+  margin: 15px 5px 5px 25px;
+}
+
+.header-right div {
+  margin-right: 10px;
+}
+
+.header-form {
+  flex: 1 !important;
+  font-family: inherit;
+  font: inherit;
+  font-size: inherit;
+  color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  margin-right: 10px;
+  height: 48px;
+}
+
+.search {
+  border-color: rgba(240, 246, 252, 0.1);
+  background: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+}
+
+.header-pic {
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+}
+
+.header-arrow svg {
+  height: 20px;
+  width: 15px;
+}
+
+#plus-sign-arrow {
+  position: relative;
+  right: 10%;
+  width: 15px;
+}
+
+#bell {
+  position: relative;
+  top: 8%;
+  margin-right: 5px;
+}
